@@ -139,7 +139,7 @@ import tensorflow
 from tensorflow.keras.preprocessing import image
 import matplotlib.pyplot as plt
 import numpy as np
-img1 = image.load_img('test/Cat/10.jpg', target_size=(64, 64))
+img1 = image.load_img('https://github.com/Pragati01234/Dog-vs-cat/blob/main/output_10_0.png', target_size=(64, 64))
 img = image.img_to_array(img1)
 img = img/255
 # create a batch of size 1 [N,H,W,C]
@@ -158,7 +158,7 @@ plt.show()
 ```
 
 
-![png](resources/images/output_10_0.png)
+![png](https://github.com/Pragati01234/Dog-vs-cat/blob/main/output_10_0.png)
 
 
 
@@ -293,7 +293,7 @@ plt.ylabel('true value');
 ```
 
 
-![png](resources/images/output_14_0.png)
+![png](https://github.com/Pragati01234/Dog-vs-cat/blob/main/output_14_0.png)
 
 
 
@@ -338,7 +338,7 @@ plt.show()
 ```
 
 
-![png](resources/images/output_16_0.png)
+![png](resources/images/https://github.com/Pragati01234/Dog-vs-cat/blob/main/output_16_0.png)
 
 
 
@@ -386,7 +386,7 @@ img = np.expand_dims(img, axis=0)
 ```
 
 
-![png](resources/images/output_19_0.png)
+![png](https://github.com/Pragati01234/Dog-vs-cat/blob/main/output_19_0.png)
 
 
 
@@ -432,7 +432,7 @@ plt.imshow(conv2d_6_features[0, :, :, 4], cmap='gray')
 
 
 
-![png](resources/images/output_24_1.png)
+![png](https://github.com/Pragati01234/Dog-vs-cat/blob/main/output_24_1.png)
 
 
 ### First Covolution Layer Output
@@ -454,7 +454,7 @@ plt.show()
 ```
 
 
-![png](resources/images/output_26_0.png)
+![png](https://github.com/Pragati01234/Dog-vs-cat/blob/main/output_26_0.png)
 
 
 ### Second Covolution Layer Output
@@ -474,7 +474,7 @@ plt.show()
 ```
 
 
-![png](resources/images/output_28_0.png)
+![png](https://github.com/Pragati01234/Dog-vs-cat/blob/main/output_28_0.png)
 
 
 ### Model Performance on Unseen Data
@@ -505,7 +505,7 @@ for i in range(columns*rows):
 ```
 
 
-![png](resources/images/output_30_0.png)
+![png](https://github.com/Pragati01234/Dog-vs-cat/blob/main/output_30_0.png)
 
 
 
